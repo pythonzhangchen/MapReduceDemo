@@ -27,7 +27,7 @@ public class WordCountDriver {
         // 5 指定最终输出的数据的 key-value 类型
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
-        // 6 设置输入路径和输出路径
+        // 6 设置输入路径和输出路径本地模式
         FileInputFormat.setInputPaths(job, new Path("C:\\input\\inputword\\hello.txt"));
         FileOutputFormat.setOutputPath(job, new Path("C:\\input\\hadoop\\output"));
         // 7 提交作业
