@@ -7,7 +7,7 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 /***
- * 1、 定义实现writable接口
+ * 1、 定义实现writable接 口
  * 2、重写序列化和反序列化方法
  * 3、重写空参构造
  * 4、toString方法
