@@ -28,7 +28,7 @@ public class FlowDriver {
         job.setOutputValueClass(FlowBean.class);
         // 6 设置输入路径和输出路径
         FileInputFormat.setInputPaths(job, new Path("C:\\input\\inputflow"));
-        FileOutputFormat.setOutputPath(job, new Path("C:\\CentOS\\software\\inputflow"));
+        FileOutputFormat.setOutputPath(job, new Path("C:\\input\\hadoop\\inputflow"));
         // 7 提交作业
         boolean result = job.waitForCompletion(true);
 
